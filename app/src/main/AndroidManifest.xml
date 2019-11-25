@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jxxy.z">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:name="com.example.jxxy.z.common.MobileShopAPP"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ztt"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.jxxy.z.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.jxxy.z.activity.AdActivity"/>
+        <activity android:name="com.example.jxxy.z.activity.MainActivity"/>
+        <activity android:name="com.example.jxxy.z.activity.LoginActivity"/>
+        <activity android:name="com.example.jxxy.z.activity.MyOrderActivity"/>
+        <activity android:name="com.example.jxxy.z.activity.MyCollectActivity"/>
+        <activity android:name="com.example.jxxy.z.activity.MyAddressActivity"/>
+        <activity android:name="com.example.jxxy.z.activity.ChangePwdActivity"/>
+        <activity android:name="com.example.jxxy.z.activity.GoodsListActivity"/>
+        <activity android:name="com.example.jxxy.z.activity.GoodsDetailActivity"/>
+    </application>
+
+</manifest>
